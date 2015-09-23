@@ -1,5 +1,6 @@
 package com.restrepo.ricardo.calculadora;
 
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,31 +8,65 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private RadioGroup radioselGroup;
+    private RadioButton r1,r2,r3,r4;
+    private Button Cargar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final EditText Nombre = (EditText) findViewById(R.id.eNombre1);
+
+        final EditText Numero1 = (EditText) findViewById(R.id.eNumero1);
+        final EditText Numero2 = (EditText) findViewById(R.id.eNumero2);
         Button Cargar = (Button) findViewById(R.id.bCargar);
+        r1=(RadioButton)findViewById(R.id.rSuma);
+        r2=(RadioButton)findViewById(R.id.rResta);
+        r3=(RadioButton)findViewById(R.id.rMultiplicacion);
+        r4=(RadioButton)findViewById(R.id.rDivision);
         final TextView TNombre = (TextView) findViewById(R.id.tNombre);
+
+
 
         Cargar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //String name;
                 //name = Nombre.getText().toString();
-                double numero;
-                numero = Double.parseDouble(Nombre.getText().toString());
-                numero = numero *10;
-                TNombre.setText(String.valueOf(numero));
+                double numero1;
+                double numero2;
+                double resultado;
+                numero1 = Double.parseDouble(Numero1.getText().toString());
+                numero2 = Double.parseDouble(Numero2.getText().toString());
+                if (r1.isChecked()) {
+                    resultado = numero1 + numero2;
+                    TNombre.setText(String.valueOf(resultado));
+                }else if(r2.isChecked()) {
+                    resultado = numero1 - numero2;
+                    TNombre.setText(String.valueOf(resultado));
+                }else if(r3.isChecked()) {
+                    resultado = numero1 * numero2;
+                    TNombre.setText(String.valueOf(resultado));
+                }else if(r4.isChecked()) {
+                    resultado = numero1 / numero2;
+                    TNombre.setText(String.valueOf(resultado));
+                }
+
+
             }
+
         });
     }
+
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

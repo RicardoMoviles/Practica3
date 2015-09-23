@@ -1,0 +1,13 @@
+<resources>
+<string name="app_name">Calculadora</string>
+
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="mensaje">Aqui aparecerá su nombre</string>
+<string name="boton">Cargar</string>
+<string name="check">CheckBox</string>
+<string name="numero1">Número1:  </string>
+<string name="numero2">Número2:  </string>
+<string name="hNombre">Digíte un número</string>
+
+</resources>

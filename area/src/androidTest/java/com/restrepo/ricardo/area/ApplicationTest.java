@@ -1,4 +1,4 @@
-package com.restrepo.ricardo.calarea;
+package com.restrepo.ricardo.area;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

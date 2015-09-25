@@ -1,8 +1,8 @@
 <LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
-android:orientation="vertical"
-android:layout_width="match_parent"
-android:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
 
 
@@ -23,7 +23,7 @@ android:layout_height="match_parent">
             android:id="@+id/eQuices"
             android:hint="@string/hPonderado"
             android:textSize="25sp"
-            android:inputType="number"/>
+            android:inputType="numberDecimal"/>
 
     </LinearLayout>
 
@@ -45,7 +45,7 @@ android:layout_height="match_parent">
             android:id="@+id/eExposiciones"
             android:hint="@string/hPonderado"
             android:textSize="25sp"
-            android:inputType="number"/>
+            android:inputType="numberDecimal"/>
 
     </LinearLayout>
 
@@ -66,7 +66,7 @@ android:layout_height="match_parent">
             android:id="@+id/ePracticas"
             android:hint="@string/hPonderado"
             android:textSize="25sp"
-            android:inputType="number"/>
+            android:inputType="numberDecimal"/>
 
     </LinearLayout>
 
@@ -87,7 +87,7 @@ android:layout_height="match_parent">
             android:id="@+id/eProyectoF"
             android:hint="@string/hPonderado"
             android:textSize="25sp"
-            android:inputType="number"/>
+            android:inputType="numberDecimal"/>
 
     </LinearLayout>
 

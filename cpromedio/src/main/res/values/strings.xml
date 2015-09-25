@@ -1,19 +1,14 @@
 <resources>
-    <string name="app_name">Calculadora</string>
+    <string name="app_name">CPromedio</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="mensaje">Resultado</string>
     <string name="boton">Cargar</string>
-    <string name="check">CheckBox</string>
     <string name="Quices">Quices(15%) </string>
     <string name="Exposiciones">Exposiciones(10%) </string>
     <string name="Practicas">Practicas Lab.(40%)</string>
     <string name="ProyectoF">Proyecto Final(35%)</string>
     <string name="hPonderado">Ponderado</string>
-    <string name="suma">Suma</string>
-    <string name="resta">Resta</string>
-    <string name="multiplicacion">Multiplicación</string>
-    <string name="division">División</string>
 
 </resources>

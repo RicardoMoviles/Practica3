@@ -1,4 +1,4 @@
-package com.example.promedio;
+package com.restrepo.ricardo.cpromedio;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
                 exposiciones = Double.parseDouble(Exposiciones.getText().toString());
                 practicas = Double.parseDouble(Practicas.getText().toString());
                 proyectof = Double.parseDouble(ProyectoF.getText().toString());
-                quices=quices*.15;
-                exposiciones=exposiciones*.1;
-                practicas=practicas*.4;
-                proyectof=proyectof*.35;
-                resultado=quices+exposiciones+practicas+proyectof;
+                quices = quices * .15;
+                exposiciones = exposiciones * .1;
+                practicas = practicas * .4;
+                proyectof = proyectof * .35;
+                resultado = quices + exposiciones + practicas + proyectof;
                 TNombre.setText(String.valueOf(resultado));
             }
 

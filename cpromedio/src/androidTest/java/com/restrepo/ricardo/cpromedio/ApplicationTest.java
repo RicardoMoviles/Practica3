@@ -1,4 +1,4 @@
-package com.example.promedio;
+package com.restrepo.ricardo.cpromedio;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

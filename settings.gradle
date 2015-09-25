@@ -1,1 +1,1 @@
-include ':app', ':calculadora', ':calculadora', ':promedio', ':area', ':area', ':calarea', ':'
+include ':app', ':calculadora', ':calculadora', ':area', ':area', ':cpromedio', ':cformulario', ':'

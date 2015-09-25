@@ -1,11 +1,167 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
-</RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:showDividers="middle|beginning|end|none"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/altura"
+                android:textSize="28sp"
+                android:textColor="@color/blue"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eAltura"
+                android:hint="@string/hNombre"
+                android:textSize="28sp"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/base"
+                android:textSize="28sp"
+                android:textColor="@color/blue"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eBase"
+                android:hint="@string/hNombre"
+                android:textSize="28sp"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio"
+                android:textSize="28sp"
+                android:textColor="@color/blue"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eRadio"
+                android:hint="@string/hNombre"
+                android:textSize="28sp"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lLado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lado"
+                android:textSize="28sp"
+                android:textColor="@color/blue"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eLado"
+                android:hint="@string/hNombre"
+                android:textSize="28sp"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/rOperacion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rCuadro"
+                android:onClick="cuadro"
+                android:text="@string/cuadro"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rTriangulo"
+                android:onClick="triangulo"
+                android:text="@string/triangulo"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rRectangulo"
+                android:onClick="rectangulo"
+                android:text="@string/rectangulo"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rCirculo"
+                android:onClick="circulo"
+                android:text="@string/circulo"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bCargar"
+                android:text="@string/boton"
+                android:textSize="28sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tNombre"
+                android:text="@string/mensaje"
+                android:textSize="28sp"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>

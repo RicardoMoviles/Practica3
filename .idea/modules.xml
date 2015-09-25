@@ -9,7 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/area/area.iml" filepath="$PROJECT_DIR$/area/area.iml" />
       <module fileurl="file://$PROJECT_DIR$/calarea/calarea.iml" filepath="$PROJECT_DIR$/calarea/calarea.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculadora/calculadora.iml" filepath="$PROJECT_DIR$/calculadora/calculadora.iml" />
-      <module fileurl="file://$PROJECT_DIR$/promedio/promedio.iml" filepath="$PROJECT_DIR$/promedio/promedio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cformulario/cformulario.iml" filepath="$PROJECT_DIR$/cformulario/cformulario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cpromedio/cpromedio.iml" filepath="$PROJECT_DIR$/cpromedio/cpromedio.iml" />
     </modules>
   </component>
 </project>

@@ -12,9 +12,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/area" />
-            <option value="$PROJECT_DIR$/calarea" />
             <option value="$PROJECT_DIR$/calculadora" />
-            <option value="$PROJECT_DIR$/promedio" />
+            <option value="$PROJECT_DIR$/cformulario" />
+            <option value="$PROJECT_DIR$/cpromedio" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CFormulario</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Nombre">Nombre: </string>
+    <string name="Apellido">Apellido: </string>
+    <string name="Identificacion">Documento: </string>
+    <string name="hNombre">Ingresar nombre </string>
+    <string name="hApellido">Ingresar Apellido </string>
+    <string name="hIdentificacion">Ingrese cedula </string>
+    <string name="Hombre">Masculino </string>
+    <string name="Mujer">Femenino </string>
+    <string name="pick_time">FECHA</string>
+    <string name="Jugar">Jugar</string>
+
+
+</resources>
